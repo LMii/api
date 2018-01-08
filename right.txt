@@ -1,0 +1,14 @@
+<div class='a1'> <h1>global</h1> <p><code>Vue.config</code> 是一个对象，包含 Vue 的全局配置。可以在启动应用之前修改下列属性：</p> </div> <div class='a2'> <h2>global1111</h2> <p>类型：<code>boolean</code></p> <p>默认值：<code>false</code></p> <p>用法：</p> <p><code>Vue.config.silent = true</code><br /> 取消 Vue 所有的日志与警告。</p> </div> <div class='a5'> <h2>global2222</h2>
+<pre><code class="lang-">// 创建构造器
+var Profile = Vue.extend({
+template: '<p>{{firstName}} {{lastName}} aka {{alias}}</p>',
+data: function () {
+ return {
+   firstName: 'Walter',
+   lastName: 'White',
+   alias: 'Heisenberg'
+ }
+}
+})
+// 创建 Profile 实例，并挂载到一个元素上。
+new Profile().$mount('#mount-point')</code></pre> </div> <div class='a3'> <h1>API</h1> </div> <div class='a4'> <h2>API1111</h2> <table> <thead> <tr> <th>column1</th> <th>column2</th> <th>column3</th> </tr> </thead> <tbody> <tr> <td>content1</td> <td>content2</td> <td>content3</td> </tr> </tbody> </table> </div>
